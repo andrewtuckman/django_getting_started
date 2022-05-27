@@ -13,7 +13,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import json
 
-f = open('config.json', 'r')
+f = open('/Users/andrewtuckman/Desktop/pluralsight_projects/django_getting_started/meeting_planner/meeting_planner'
+         '/config.json', 'r')
 config = json.load(f)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
