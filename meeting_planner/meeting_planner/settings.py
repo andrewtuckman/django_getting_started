@@ -16,6 +16,7 @@ import json
 f = open('/Users/andrewtuckman/Desktop/pluralsight_projects/django_getting_started/meeting_planner/meeting_planner'
          '/config.json', 'r')
 config = json.load(f)
+f.close()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
